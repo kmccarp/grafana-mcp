@@ -1,0 +1,30 @@
+{
+  "name": "grafana-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for querying Grafana dashboards and panels",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "axios": "^1.7.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "grafana",
+    "monitoring",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT"
+}

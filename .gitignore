@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test files with hardcoded credentials
+complete-inventory.js
+test-auth.js
+
+# Instance-specific user scripts
+grafana-cookie-*.user.js
+
+# Generated inventory files (contain sensitive data)
+complete-grafana-inventory.json
+COMPLETE_INVENTORY_REPORT.md
+GRAFANA_INVENTORY_SUMMARY.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
